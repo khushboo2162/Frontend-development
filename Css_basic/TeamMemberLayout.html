@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+      body{
+        background-color: antiquewhite;
+        font-style: italic;
+        margin:20px;
+      }
+      h1{
+        text-align: center;
+        margin-bottom: 30px;
+      } 
+     .team-container {
+  display: flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+  
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius:10px;
+  box-shadow: 5px  6px 10px ;
+  padding: 20px;
+  width:300px;
+  box-sizing:border-box;
+  transition: transform 0.3s ease;
+
+}
+.card:hover {
+  transform:translateY(-5px);
+
+}
+.card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card h4 {
+  margin: 5px 0;
+  color: #666;
+}
+.card p {
+  color: #555;
+}
+.team-leader {
+  background-color: #e0f7fa;
+  border: 2px solid #00796b;
+}
+
+
+
+
+
+
+   
+    </style>
+</head>
+<body>
+    <h1>Our Team</h1>
+     <div class="team-container">
+
+        <div class="team-leader">
+        <h2>Khushboo Agrawal</h2>
+        <h4>Team Leader</h4>
+        <p>Expert in semantic HTML and Git workflows. Leads with clarity and precision.</p>
+        </div>
+        <div class="card">
+            <h2>Ravi Mehta</h2>
+            <h4>Frontened Developer</h4>
+            <p>Passionate about clean UI and responsive design. Loves CSS tricks and layout challenges.</p>
+       </div>
+       <div class="card">
+         <h2>Neha Verma</h2>
+         <h4>Backend Developer</h4>
+         <p>Handles APIs and databases with ease. Ensures smooth data flow and security.</p>
+    </div>
+  </div>
+
+
+    
+</body>
+</html>
